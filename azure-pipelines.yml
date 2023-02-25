@@ -27,3 +27,4 @@ steps:
     applicationId: 'Webgoat'
     stage: 'Build'
     enableDebugLogging: true
+    javaSystemProperties: -Djava.net.useSystemProxies=false
